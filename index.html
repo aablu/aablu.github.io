@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+    line-height: 1.15;
+    color: #111;
+    margin: 0;
+    padding: 0 40px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+
+  .header img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+
+  .header-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 16pt;
+    margin: 0 0 4px 0;
+  }
+
+  .contact {
+    margin: 0 0 2px 0;
+  }
+
+  .contact a {
+    color: #0000EE;
+    text-decoration: underline;
+  }
+
+  section {
+    margin-top: 24px;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 13pt;
+    margin-bottom: 4px;
+  }
+
+  p {
+    margin: 0 0 4px 0;
+  }
+
+  ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: 2px;
+  }
+
+  footer {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="profile.jpg" alt="Photo of Your Name">
+    <div class="header-text">
+      <p class="name">Your Name</p>
+      <p class="contact">yourname [at] uic [dot] edu</p>
+      <p class="contact">Department of Mathematics, Statistics, and Computer Science<br>Building Name, Room ###<br>Street Address, Chicago, IL Zip</p>
+      <p class="contact"><a href="cv.pdf">CV</a></p>
+    </div>
+  </div>
+
+  <section id="bio">
+    <h2>About</h2>
+    <p>
+      I am a second-year PhD student in Mathematics at the University of Illinois Chicago,
+      working broadly in algebraic geometry. I completed my undergraduate degree at Northwestern
+      University. I am currently exploring potential research directions, with particular interest
+      in moduli spaces.
+    </p>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <p>None yet.</p>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching</h2>
+    <ul>
+      <li>Course Name, Semester Year — Role (e.g. Teaching Assistant)</li>
+      <li>Course Name, Semester Year — Role</li>
+    </ul>
+  </section>
+
+  <footer>
+    Last updated Month Year
+  </footer>
+
+</body>
+</html>
